@@ -78,7 +78,7 @@ const Hero = () => {
               {/* Social Links */}
               <div className="flex justify-center space-x-6 mt-8">
                 <a
-                  href="https://github.com/chiragmalde"
+                  href="https://github.com/Chirag221104"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/70 hover:text-white transition-colors p-2 rounded-full hover:bg-white/10"
@@ -86,7 +86,7 @@ const Hero = () => {
                   <Github className="h-6 w-6" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/chiragmalde"
+                  href="https://www.linkedin.com/in/chirag-malde-9794b32b9/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/70 hover:text-white transition-colors p-2 rounded-full hover:bg-white/10"
@@ -94,7 +94,7 @@ const Hero = () => {
                   <Linkedin className="h-6 w-6" />
                 </a>
                 <a
-                  href="mailto:chirag.malde@example.com"
+                  href="mailto:chiragmalde166@apsit.edu.in"
                   className="text-white/70 hover:text-white transition-colors p-2 rounded-full hover:bg-white/10"
                 >
                   <Mail className="h-6 w-6" />

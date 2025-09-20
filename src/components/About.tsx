@@ -19,9 +19,7 @@ const About = () => {
   const skills = [
     { name: 'React & TypeScript', level: 95, icon: Code2 },
     { name: 'Python & AI/ML', level: 90, icon: Brain },
-    { name: 'Node.js & Express', level: 85, icon: Database },
-    { name: 'Django & Flask', level: 80, icon: Database },
-    { name: 'Mobile Development', level: 75, icon: Smartphone },
+    { name: 'FastAPI', level: 80, icon: Database },
     { name: 'Cloud & DevOps', level: 85, icon: Cloud },
     { name: 'Git & Version Control', level: 90, icon: GitBranch },
     { name: 'Problem Solving', level: 95, icon: Target },
@@ -140,10 +138,8 @@ const About = () => {
                   <div className="mt-8 pt-6 border-t border-border">
                     <h4 className="font-semibold mb-3">Education & Certifications</h4>
                     <div className="space-y-2 text-sm text-muted-foreground">
-                      <p>• Bachelor's in Computer Science</p>
-                      <p>• AWS Certified Solutions Architect</p>
-                      <p>• Google Cloud Professional Developer</p>
-                      <p>• Machine Learning Specialization (Coursera)</p>
+                      <p>• Bachelor's in Information Technology (Pursuing, TE Semester VI)</p>
+                      <p>• Projects: VisaRoute (Digital Immigration Assistance Platform), Signature Forgery Detection</p>
                     </div>
                   </div>
                 </CardContent>

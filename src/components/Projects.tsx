@@ -11,63 +11,53 @@ const Projects = () => {
     {
       id: 1,
       title: 'Document Forgery Detection System',
-      description: 'AI-powered system using computer vision and machine learning to detect forged documents with 95% accuracy. Implements deep learning models for image analysis and fraud detection.',
-      category: 'ai',
+      description: 'Python-based system for detecting forged documents by analyzing PDFs, Word files, and image metadata. Built using FastAPI for the web interface and libraries like PyPDF2, PyMuPDF, and python-docx for document processing and verification.',
+      category: 'fullstack',
       technologies: ['Python', 'TensorFlow', 'OpenCV', 'Flask', 'React'],
-      githubUrl: 'https://github.com/chiragmalde/document-forgery-detection',
-      liveUrl: 'https://document-detection-demo.vercel.app',
-      featured: true
+      githubUrl: 'https://github.com/Chirag221104/hybrid-document-forgery-detection',
+      liveUrl: 'https://hybrid-document-forgery-detection-f.vercel.app/',
+      featured: false
     },
     {
       id: 2,
       title: 'Traffic Recognition & Analysis',
-      description: 'Real-time traffic sign recognition system using YOLO and CNN models. Processes live video feeds to identify and classify traffic signs for autonomous vehicle applications.',
+      description: 'Python-based CNN system for recognizing traffic signs with 98% accuracy. Improved the original model by applying CLAHE, edge enhancement, and denoising to enhance image quality and boost performance.',
       category: 'ai',
       technologies: ['Python', 'PyTorch', 'YOLO', 'OpenCV', 'FastAPI'],
-      githubUrl: 'https://github.com/chiragmalde/traffic-recognition',
-      liveUrl: 'https://traffic-recognition-demo.vercel.app',
+      githubUrl: 'https://github.com/Chirag221104/Traffic_Recognition_Project_ROSPL',
+      liveUrl: '',
       featured: true
     },
     {
       id: 3,
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce application with modern UI/UX, payment integration, inventory management, and admin dashboard. Built with microservices architecture.',
+      title: 'Notion Clone',
+      description: "A web application replicating Notion's core features, built using Next.js, TypeScript, Tailwind CSS, and Firebase. Implements real-time collaborative editing, user authentication, and a responsive UI for seamless note-taking and project management.",
       category: 'fullstack',
-      technologies: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Stripe'],
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Firebase', 'React'],
       githubUrl: 'https://github.com/chiragmalde/ecommerce-platform',
       liveUrl: 'https://ecommerce-demo.vercel.app',
-      featured: false
+      featured: true
     },
     {
       id: 4,
-      title: 'Social Media Analytics Dashboard',
-      description: 'Comprehensive analytics dashboard for social media metrics with real-time data visualization, sentiment analysis, and performance tracking.',
+      title: 'VisaRoute',
+      description: 'VisaRoute is a web application designed to assist users in determining the appropriate visa route based on their qualifications and intentions. The platform provides personalized guidance by analyzing user inputs and offering tailored recommendations.',
       category: 'web',
-      technologies: ['React', 'TypeScript', 'D3.js', 'Express', 'MongoDB'],
-      githubUrl: 'https://github.com/chiragmalde/social-analytics',
+      technologies: ['React', 'Tailwind CSS', 'Node.js', 'Express.js', 'PostgreSQL','JWT (JSON Web Tokens)','Docker','Heroku'],
+      githubUrl: 'https://github.com/Chirag221104/VisaRoute',
       liveUrl: 'https://social-analytics-demo.vercel.app',
       featured: false
     },
     {
       id: 5,
-      title: 'AI Chatbot Platform',
-      description: 'Intelligent chatbot platform with natural language processing, context awareness, and multi-language support. Integrates with various messaging platforms.',
-      category: 'ai',
-      technologies: ['Python', 'NLP', 'Django', 'Redis', 'WebSocket'],
-      githubUrl: 'https://github.com/chiragmalde/ai-chatbot',
-      liveUrl: 'https://chatbot-demo.vercel.app',
+      title: 'Signature Forgery Detection System',
+      description: 'A secure web application designed to authenticate users through signature verification, leveraging advanced machine learning techniques. This system ensures robust security by detecting forged signatures, making it ideal for applications requiring high trust levels.',
+      category: 'web',
+      technologies: ['React', 'Vite', 'Tailwind CSS', 'TypeScript', 'FastAPI', 'Python', 'TensorFlow', 'OpenCV', 'Pytesseract'],
+      githubUrl: 'https://github.com/Chirag221104/Signature-Detection-System',
+      liveUrl: 'https://social-analytics-demo.vercel.app',
       featured: true
     },
-    {
-      id: 6,
-      title: 'Task Management App',
-      description: 'Collaborative task management application with real-time updates, team collaboration features, and productivity analytics.',
-      category: 'web',
-      technologies: ['React', 'TypeScript', 'Socket.io', 'Express', 'MongoDB'],
-      githubUrl: 'https://github.com/chiragmalde/task-manager',
-      liveUrl: 'https://task-manager-demo.vercel.app',
-      featured: false
-    }
   ];
 
   const categories = [
@@ -191,7 +181,7 @@ const Projects = () => {
             </p>
             <Button variant="outline" asChild>
               <a 
-                href="https://github.com/chiragmalde" 
+                href="https://github.com/Chirag221104?tab=repositories" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"

@@ -13,17 +13,17 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: 'https://github.com/chiragmalde',
+      href: 'https://github.com/Chirag221104',
       label: 'GitHub'
     },
     {
       icon: Linkedin,
-      href: 'https://linkedin.com/in/chiragmalde',
+      href: 'https://www.linkedin.com/in/chirag-malde-9794b32b9/',
       label: 'LinkedIn'
     },
     {
       icon: Mail,
-      href: 'mailto:chirag.malde@example.com',
+      href: 'mailto:chiragmalde166@apsit.edu.in',
       label: 'Email'
     }
   ];
@@ -97,13 +97,13 @@ const Footer = () => {
             <div className="space-y-2 text-muted-foreground">
               <p>
                 <a 
-                  href="mailto:chirag.malde@example.com"
+                  href="mailto:chiragmalde166@apsit.edu.in"
                   className="hover:text-primary transition-colors"
                 >
-                  chirag.malde@example.com
+                  chiragmalde166@apsit.edu.in
                 </a>
               </p>
-              <p>San Francisco, CA</p>
+              <p>Bhiwandi, India</p>
               <p className="text-sm">
                 Available for freelance opportunities
               </p>
@@ -118,7 +118,6 @@ const Footer = () => {
               © {currentYear} Chirag Malde. All rights reserved.
             </p>
             <p className="flex items-center text-muted-foreground text-sm">
-              Built with <Heart className="h-4 w-4 mx-1 text-red-500" /> using React & TypeScript
             </p>
           </div>
         </div>
